@@ -1,0 +1,84 @@
+-- 📌 Auto copy TikTok link on script execution
+setclipboard("https://www.tiktok.com/@developervn11?_t=ZS-8yW9cZdXeQD&_r=1")
+
+-- 📌 Load Rayfield UI Library
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+-- 📌 Create main GUI window
+local Window = Rayfield:CreateWindow({
+   Name = "All Script By PhatLee(and more)", -- sau khi load
+   LoadingTitle = "Follow Tiktok Scripts By PhatLee For All Update", -- khi đang loading
+   LoadingSubtitle = "By Phat Lee",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil,
+      FileName = "PhatLeeScriptConfig"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "",
+      RememberJoins = false
+   },
+   KeySystem = false,
+})
+
+-- 📌 Create tab
+local Tab = Window:CreateTab("Scripts", 4483362458)
+
+-- 📌 Add script buttons
+
+Tab:CreateButton({
+   Name = "Pet Spawner Script (Project Reverse, public server, maybe take 10-20 seconds to load)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/PetSpawner/refs/heads/main/ScriptByPhatLee"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Pet Randomize (By PhatLee, public server)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/PetRandomize/refs/heads/main/ScriptByPhatLee"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Pet Multiplier x10 (By PhatLee, loading screen and public server)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/Pet_X10_Weight/refs/heads/main/ScriptByPhatLee"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Speed Hub X (work private server cuz its real) (need key)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/Speed-Hub-X/refs/heads/main/Speed%2520Hub%2520X"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Nat Hub (work private server cuz its real) (need key)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/nathub/refs/heads/main/nat"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Lumin Hub (work private server cuz its real) (need key)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/luminhub/refs/heads/main/lumin"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Limit Hub (work private server cuz its real) (need key)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/limithub/refs/heads/main/limit"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "OMG Hub (maybe scam, I didn’t try it)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/OMGhub/refs/heads/main/OMG"))()
+   end,
+})
