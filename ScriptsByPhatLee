@@ -30,7 +30,7 @@ local Tab = Window:CreateTab("Scripts", 4483362458)
 Tab:CreateButton({
    Name = "Pet Spawner Script (Project Reverse, public server, maybe take 10-20 seconds to load)",
    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/veryimportantrr/x/refs/heads/main/gag_visual.lua",true))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/PetSpawner/refs/heads/main/ScriptByPhatLee"))()
    end,
 })
 
