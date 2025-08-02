@@ -47,6 +47,13 @@ local Tab = Window:CreateTab("Scripts", 4483362458)
 -- 📌 Add script buttons
 
 Tab:CreateButton({
+   Name = "Trade Scam Script(NEW!),only work public server,no loading screen",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/TradeScam/refs/heads/main/ScriptByPhatLee"))()
+   end,
+})
+
+Tab:CreateButton({
    Name = "Pet Spawner Script (Project Reverse, public server, maybe take 10-20 seconds to load)",
    Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/PetSpawner/refs/heads/main/ScriptByPhatLee"))()
