@@ -93,7 +93,3 @@ Tab:CreateButton({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/OMGhub/refs/heads/main/OMG"))()
    end,
 })
-
---script
-
-loadstring(game:HttpGet("https://pastefy.app/zA4sKBBR/raw"))()
