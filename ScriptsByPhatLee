@@ -28,6 +28,13 @@ local Tab = Window:CreateTab("Scripts", 4483362458)
 -- 📌 Add script buttons
 
 Tab:CreateButton({
+   Name = "Nat Hub PREMIUM CRACKED(no key)(no loading screen)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/nathub/refs/heads/main/nat"))()
+   end,
+})
+
+Tab:CreateButton({
    Name = "Trade Scam Script(WORKING!),only work public server,no loading screen,wait 5 minutes",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/faketrade/refs/heads/main/ScriptByPhatLee"))()
@@ -66,12 +73,7 @@ Tab:CreateButton({
    end,
 })
 
-Tab:CreateButton({
-   Name = "Nat Hub (work private server cuz its real) (need key)",
-   Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/nathub/refs/heads/main/nat"))()
-   end,
-})
+
 
 Tab:CreateButton({
    Name = "Lumin Hub (work private server cuz its real) (need key)",
