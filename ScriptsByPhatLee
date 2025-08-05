@@ -30,11 +30,11 @@ local Tab = Window:CreateTab("Scripts", 4483362458)
 Tab:CreateButton({
    Name = "Trade Scam Script(WORKING!),only work public server,no loading screen,wait 5 minutes",
    Callback = function()
-loadstring(game:HttpGet("https://pastefy.app/zA4sKBBR/raw"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/faketrade/refs/heads/main/ScriptByPhatLee"))()
 
 --backpack
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/faketrade/refs/heads/main/ScriptByPhatLee"))()
+loadstring(game:HttpGet("https://pastefy.app/zA4sKBBR/raw"))()
    end,
 })
 
