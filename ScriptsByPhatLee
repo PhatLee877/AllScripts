@@ -55,7 +55,7 @@ Tab:CreateButton({
 })
 
 Tab:CreateButton({
-    Name = "Nat Hub PREMIUM CRACKED(nat hub fixed it lol)(no loading screen)",
+    Name = "Nat Hub(no loading screen)(need key)(work private server)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/nathub/refs/heads/main/nat"))()
     end
