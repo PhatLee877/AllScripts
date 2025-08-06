@@ -28,7 +28,14 @@ local Tab = Window:CreateTab("Scripts", 4483362458)
 -- 📌 Add script buttons
 
 Tab:CreateButton({
-   Name = "Nat Hub PREMIUM CRACKED(no key)(no loading screen)",
+   Name = "Speed Hub X (use this instead of nat hub premium cracked) (need key)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/Speed-Hub-X/refs/heads/main/Speed%2520Hub%2520X"))()
+   end,
+})
+
+Tab:CreateButton({
+   Name = "Nat Hub PREMIUM CRACKED(nat hub fixed it lol)(no loading screen)",
    Callback = function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/nathub/refs/heads/main/nat"))()
    end,
@@ -65,15 +72,6 @@ Tab:CreateButton({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/Pet_X10_Weight/refs/heads/main/ScriptByPhatLee"))()
    end,
 })
-
-Tab:CreateButton({
-   Name = "Speed Hub X (work private server cuz its real) (need key)",
-   Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/Speed-Hub-X/refs/heads/main/Speed%2520Hub%2520X"))()
-   end,
-})
-
-
 
 Tab:CreateButton({
    Name = "Lumin Hub (work private server cuz its real) (need key)",
