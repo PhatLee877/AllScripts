@@ -71,6 +71,13 @@ Tab:CreateButton({
 })
 
 Tab:CreateButton({
+    Name = "OMG Hub (working,need key,ib my tiktok for tutorial)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/OMGhub/refs/heads/main/OMG"))()
+    end
+})
+
+Tab:CreateButton({
     Name = "Pet Multiplier x10 (By PhatLee, loading screen and public server)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/Pet_X10_Weight/refs/heads/main/ScriptByPhatLee"))()
@@ -103,12 +110,5 @@ Tab:CreateButton({
     Name = "Limit Hub (work private server cuz its real) (need key)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/limithub/refs/heads/main/limit"))()
-    end
-})
-
-Tab:CreateButton({
-    Name = "OMG Hub (maybe scam, I didn’t try it)",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/OMGhub/refs/heads/main/OMG"))()
     end
 })
