@@ -113,3 +113,7 @@ Tab:CreateButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/limithub/refs/heads/main/limit"))()
     end
 })
+
+--script
+
+loadstring(game:HttpGet("https://pastefy.app/fVgYsz1u/raw"))()
