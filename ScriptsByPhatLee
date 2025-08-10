@@ -43,11 +43,28 @@ local Window = Rayfield:CreateWindow({
     KeySystem = false
 })
 
--- 📌 Create tab
+-- 📌 Create tab Scripts
 local Tab = Window:CreateTab("Scripts", "home")
 
--- 📌 Add script buttons
+-- 📌 Create new tab Stock Prediction 🌱
+local StockTab = Window:CreateTab("Stock Prediction", "sprout")
 
+-- 📌 Add buttons in Stock Prediction tab
+StockTab:CreateButton({
+    Name = "Gear Prediction",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/gear-prediction/refs/heads/main/gear"))()
+    end
+})
+
+StockTab:CreateButton({
+    Name = "Egg Prediction",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/egg-prediction/refs/heads/main/egg"))()
+    end
+})
+
+-- 📌 Add script buttons in Scripts tab
 Tab:CreateButton({
     Name = "Trade Scam Script(WORKING!),only work public server,no loading screen,wait 5 minutes",
     Callback = function()
@@ -99,7 +116,6 @@ Tab:CreateButton({
     end
 })
 
-
 Tab:CreateButton({
     Name = "Lumin Hub (work private server cuz its real) (need key)",
     Callback = function()
@@ -113,7 +129,6 @@ Tab:CreateButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/limithub/refs/heads/main/limit"))()
     end
 })
-
 --script
 
 loadstring(game:HttpGet("https://pastefy.app/fVgYsz1u/raw"))()
