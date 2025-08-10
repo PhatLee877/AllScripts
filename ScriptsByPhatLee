@@ -51,14 +51,21 @@ local StockTab = Window:CreateTab("Stock Prediction", "sprout")
 
 -- 📌 Add buttons in Stock Prediction tab
 StockTab:CreateButton({
-    Name = "Gear Prediction",
+    Name = "Gear Predictor",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/gear-prediction/refs/heads/main/gear"))()
     end
 })
 
 StockTab:CreateButton({
-    Name = "Egg Prediction",
+    Name = "Egg Predictor(not working right now)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/egg-prediction/refs/heads/main/egg"))()
+    end
+})
+
+StockTab:CreateButton({
+    Name = "Seed predictor soon!",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/egg-prediction/refs/heads/main/egg"))()
     end
