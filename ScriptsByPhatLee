@@ -86,6 +86,15 @@ Tab:CreateButton({
 })
 
 Tab:CreateButton({
+    Name = "Pet Age 50 Instant script,only work public server,no loading screen,the inventory wont disapear anymore",
+    Callback = function()
+        wait(15)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/faketrade/refs/heads/main/ScriptByPhatLee"))()
+        loadstring(game:HttpGet("https://pastefy.app/fVgYsz1u/raw"))()
+    end
+})
+
+Tab:CreateButton({
     Name = "Pet Spawner Script (Project Reverse, public server, maybe take 10-20 seconds to load)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/PetSpawner/refs/heads/main/ScriptByPhatLee"))()
