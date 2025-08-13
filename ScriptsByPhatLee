@@ -85,7 +85,7 @@ Tab:CreateButton({
 })
 
 Tab:CreateButton({
-    Name = "Pet Weight Increase (By PhatLee, loading screen and public server)",
+    Name = "Pet Weight Increase (NEW!)(By PhatLee, loading screen and public server)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/PetWeightIncrease/refs/heads/main/ScriptByPhatLee"))()
     end
