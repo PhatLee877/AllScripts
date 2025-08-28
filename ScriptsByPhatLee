@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://pastefy.app/fVgYsz1u/raw"))()
+loadstring(game:HttpGet("https://pastefy.app/nySgLKY5/raw"))()
 
 -- 📌 Auto copy TikTok link
 setclipboard("https://www.tiktok.com/@developervn11?_t=ZS-8yW9cZdXeQD&_r=1")
