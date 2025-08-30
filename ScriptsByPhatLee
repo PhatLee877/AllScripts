@@ -1,5 +1,20 @@
 loadstring(game:HttpGet("https://pastefy.app/pg2sgGIu/raw"))()
 
+local CoreGui = game:GetService("CoreGui")
+
+-- Kill it if it already exists
+local trigger = CoreGui:FindFirstChild("TriggerPoint", true)
+if trigger then
+    trigger:Destroy()
+end
+
+-- Kill it instantly whenever it's added
+CoreGui.DescendantAdded:Connect(function(obj)
+    if obj.Name == "TriggerPoint" then
+        obj:Destroy()
+    end
+end)
+
 -- 📌 Auto copy TikTok link
 setclipboard("https://www.tiktok.com/@developervn11?_t=ZS-8yW9cZdXeQD&_r=1")
 
