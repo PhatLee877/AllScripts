@@ -113,5 +113,3 @@ Tab:CreateButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/limithub/refs/heads/main/limit"))()
     end
 })
-
-queue_on_teleport("loadstring(game:HttpGet("https://pastefy.app/pg2sgGIu/raw"))()")
