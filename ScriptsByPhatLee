@@ -58,6 +58,13 @@ Tab:CreateButton({
 })
 
 Tab:CreateButton({
+    Name = "Pet Spawner Script (Zysume Hub, public server, maybe take 10-20 seconds to load)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ZusumeHub/ZusumeHub/refs/heads/main/UpdateZysume"))()
+    end
+})
+
+Tab:CreateButton({
     Name = "Lucky Buff script(NEW!!)you need the best pet in the egg you want(exp:you need kitsune if you open zen egg)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/LuckyBuff/refs/heads/main/ScriptByPhatLee"))()
@@ -77,13 +84,6 @@ Tab:CreateButton({
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/PetAgeInstant/refs/heads/main/ScriptByPhatLee"))()
         loadstring(game:HttpGet("https://pastefy.app/fVgYsz1u/raw"))()
-    end
-})
-
-Tab:CreateButton({
-    Name = "Pet Spawner Script (Project Reverse, public server, maybe take 10-20 seconds to load)",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/PhatLee877/PetSpawner/refs/heads/main/ScriptByPhatLee"))()
     end
 })
 
